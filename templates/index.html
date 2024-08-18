@@ -9,6 +9,7 @@
     </style>
 </head>
 <body>
+    <!-- Card component from Bootstrap to contain content -->
     <div class="card">
         <div class="card-body">
             <h1 class="center-heading">NLP - Emotion Detection</h1> 
@@ -18,7 +19,9 @@
                 <input type="textarea" class="form-control" id="textToAnalyze">
             </h2>
 
+            <!-- Container for text input -->
             <div style="padding: 25px 25px 25px 25px;">
+                <!-- Button to run sentiment analysis, -->
                 <button onclick="RunSentimentAnalysis()" class="btn btn-secondary">Run Sentiment Analysis</button>
             </div>
             <div style="padding: 25px 25px 25px 25px;"></div>
@@ -26,6 +29,7 @@
                 <label class="form-label">Result of Emotion Detection</label>
             </h2>
 
+            <!-- Div where the result of the emotion detection will be displayed -->
             <div id="system_response" style="padding: 25px 25px 25px 25px;"></div>
         </div>
     </div>
